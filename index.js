@@ -7,7 +7,7 @@ const nodemailer = require("nodemailer");
 let transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "mahameds19999@gmail.com",
+    user: "yourEmail@gmail.com",
     pass: "passwordOfYourAccount"
   }
 });
@@ -39,8 +39,8 @@ let server = http.createServer((req, res) => {
       let bodyObject = JSON.parse(data.toString());
 
       let mailOptions = {
-        from: "mahameds19999@gmail.com",
-        to: "mahameds19999@gmail.com",
+        from: "yourEmail@gmail.com",
+        to: "yourEmail@gmail.com",
         subject: `Message from ${bodyObject.name}`,
         text: `
             ${bodyObject.message}
