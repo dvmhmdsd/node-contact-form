@@ -1,12 +1,12 @@
 # Node.js Contact Form
 
-A simple app with `node.js` and `nodemailer`.
+A simple app with `Node.js` and `nodemailer`.
 
 ## Packages used
 
 1. **Nodemailer**: [Docs](https://www.w3schools.com/nodejs/nodejs_email.asp)
 
-## Installation %
+## Installation
 
 1. Clone this repo `git clone https://github.com/dvmhmdsd/node-contact-form.git` or using `ssh`.
 
